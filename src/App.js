@@ -1,12 +1,22 @@
 import './App.css';
-import Slider from './components/head/head';
+import { Navigation } from './components/navbar/navbar';
+
+
+// export const scroll = new SmoothScroll('a[href*="#"]', {
+//   speed: 1000,
+//   speedAsDuration: true,
+// });
+
 
 function App() {
+
+
   return (
     <div className="App">
-   <h1>Hello World</h1>
-   <Slider/>
+      <Navigation />
      
+     
+
     </div>
   );
 }
