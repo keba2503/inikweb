@@ -1,11 +1,9 @@
 import './App.css';
-import { Navigation } from './components/navbar/navbar';
+import { Route, Routes } from "react-router-dom";
+import { Home } from './components/home/home';
 
 
-// export const scroll = new SmoothScroll('a[href*="#"]', {
-//   speed: 1000,
-//   speedAsDuration: true,
-// });
+
 
 
 function App() {
@@ -13,10 +11,9 @@ function App() {
 
   return (
     <div className="App">
-      <Navigation />
-     
-     
-
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }

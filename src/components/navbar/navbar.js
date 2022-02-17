@@ -34,7 +34,7 @@ export class Navigation extends React.Component {
     return (
       <div id='container'>
         <Navbar color="light" light expand="md" fixed='top'>
-          <NavbarBrand href="#page-top" id='navname'>InikCamper</NavbarBrand>
+          <NavbarBrand href="https://inikcamper.eu/" id='navname'>InikCamper</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar >
             <Nav className="ms-auto" navbar >
@@ -44,7 +44,7 @@ export class Navigation extends React.Component {
 
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Options
+                  Opciones
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
