@@ -32,7 +32,7 @@ export class Navigation extends React.Component {
   }
   render() {
     return (
-      <div id='container'>
+      
         <Navbar color="light" light expand="md" fixed='top'>
           <NavbarBrand href="https://inikcamper.eu/" id='navname'>InikCamper</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
@@ -61,7 +61,7 @@ export class Navigation extends React.Component {
             </Nav>
           </Collapse>
         </Navbar>
-      </div>
+     
     );
   }
 }
