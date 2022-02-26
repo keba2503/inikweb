@@ -1,0 +1,25 @@
+.containerform {
+    color: #a2d5d8;
+    
+
+}
+
+form {
+    color: #a2d5d8;
+    padding-top: 3rem;
+}
+
+label {
+    padding-top: 0rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: #64a2ad;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.buttonbooking {
+    background: #64a2ad;
+}

@@ -41,6 +41,10 @@ export class Navigation extends React.Component {
               <NavItem>
                 <NavLink href="https://inikcamper.eu/" >Inicio</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="/booking" >Reserva</NavLink>
+              </NavItem>
+
 
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
